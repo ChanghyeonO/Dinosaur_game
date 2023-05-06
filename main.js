@@ -52,7 +52,7 @@ function frameRun() {
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    if (timer % 700 === 0) {
+    if (timer % 800 === 0) {
         let cactus = new Cactus;
         severalCactus.push(cactus);
         cactus.draw()
